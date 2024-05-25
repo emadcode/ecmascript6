@@ -1,17 +1,13 @@
-// Define the function to calculate the perimeter of a rectangle
-function calculateRectanglePerimeter(length, width) {
-    // Calculate the perimeter using the formula
-    let perimeter = 2 * (length + width);
-    
-    // Return the calculated perimeter
-    return perimeter;
-}
+    //Object Destructuring
+    const person = { name: 'Emad', age: 22, job: 'Web Developer', adress:'cairo'};
 
-// Example usage of the function
-let length = 5;  // Example length
-let width = 3;   // Example width
-let perimeter = calculateRectanglePerimeter(length, width);
+    const { name, age, job,adress } = person;
 
-console.log("The perimeter of the rectangle is: " + perimeter);
-//    The function calculateRectanglePerimeter takes two parameters: length and width.
-//Inside the function, it calculates the perimeter using the formula 2×(length+width)2×(length+width).
+    console.log(name); // Emad
+    console.log(age); // 22
+    console.log(job); // Web Developer
+    console.log(adress);//cairo
+
+    //The basic syntax for object destructuring involves using curly braces
+    // {} on the left-hand side of an assignment 
+    //to specify the properties you want to extract from an object.
