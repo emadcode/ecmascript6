@@ -21,5 +21,5 @@ const person = {
   console.log(fullName); // Emad
   console.log(town); // cairo
   console.log(state); // Unknown
-  console.log(otherInfo); // { age: 30, job: 'Developer' }
+  console.log(otherInfo); // { age: 22, job: 'Developer' }
   
